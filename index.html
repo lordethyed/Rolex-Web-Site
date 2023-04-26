@@ -2,30 +2,49 @@
 <html>
 
 <head>
-    <title>Scroll TO Play</title>
+    <title>Rolex</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0e0f484959.js" crossorigin="anonymous"></script>
 </head>
-
 <body>  
-    <h1>scroll to play video</h1>
-    <div class="videocontainer">
-	    <video id="video" src="rolexVideo/Rolex Submariner 2022 Black _ Blender 3d Product Animation.mp4"></video>    	
-    </div> 
+    <header>
+        <nav class="navbar">
+            <button><i class="fa-solid fa-bars-staggered"></i>  Menu</button>
+            <img src="images/logo.png" alt="">
+            <button><i class="fa-solid fa-location-dot"></i>    Store Locator</button>
+        </nav>
+        <nav>
+            <ul class="navbar-menu">
+                <li class="nav-item about-rolex">
+                    <a href="">Rolex watches</a>
+                </li>
+                <li class="nav-item new-rolex">
+                    <a href="">New watches 2023</a>
+                </li>
+                <li class="nav-item wathcmaking-rolex">
+                    <a href="">Watchmaking</a>
+                </li>
+                <li class="nav-item sport-rolex">
+                    <a href="">Rolex and sports</a>
+                </li>
+                <li class="nav-item initials-rolex">
+                    <a href="">Perpetual Initiatives</a>
+                </li>
+                <li class="nav-item buy-rolex">
+                    <a href="">Buying a Rolex</a>
+                </li>
+                <li class="nav-item service-rolex">
+                    <a href="">Care and servicing</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-slider">
+                
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
-<script type="text/javascript">
-function scrollVideo() {
-    var video = document.getElementById('video'),
-        videoLength = video.duration,
-        scrollPosition = $(document).scrollTop();
-
-    video.currentTime = (scrollPosition / ($(document).height() - $(window).height())) * videoLength;
-}
-
-$(window).scroll(function(e) {
-    scrollVideo();
-});
-</script>

@@ -1,30 +1,24 @@
-html{
-    height: 100%;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-body{
-    height: 4000px;
+
+:root{
+    --main-green: #156742;
 }
-video{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    z-index: -100;
-    background-size: cover;
-    transform: translate(-50%, -50%);
+
+.navbar{
+    display: flex;
+    background-color: flex;
+    background-color: #156742;
+    height: 15vh;
+    z-index: 2;
+    justify-content: space-between;
+    padding: 0px 10vh 0px 10vh;
 }
-h1{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    z-index: 90;
-    font-family: sans-serif;
-    font-size: 8vmin;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
+.navbar button{
+    background-color: #156742;
+    border: 0px solid transparent;
+    color: white;
 }
