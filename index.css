@@ -21,4 +21,8 @@
     background-color: #156742;
     border: 0px solid transparent;
     color: white;
+    font-size: large;
+}
+.navbar-menu{
+    display: none;
 }
