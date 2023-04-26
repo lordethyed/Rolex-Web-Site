@@ -11,7 +11,7 @@
 .navbar{
     display: flex;
     background-color: flex;
-    background-color: #156742;
+    background-color: black;
     height: 15vh;
     z-index: 2;
     justify-content: space-between;
